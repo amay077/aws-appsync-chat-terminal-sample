@@ -1,0 +1,26 @@
+{
+  "name": "appaync-chat-console",
+  "version": "0.1.0",
+  "scripts": {
+    "trans": "ts-node src/main.ts",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/node": "13.11.1",
+    "ts-loader": "7.0.5",
+    "ts-node": "8.10.2",
+    "typescript": "4.2.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.7",
+    "aws-appsync-auth-link": "^3.0.6",
+    "aws-appsync-subscription-link": "^3.0.8",
+    "graphql": "^15.5.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "ws": "^8.1.0"
+  }
+}

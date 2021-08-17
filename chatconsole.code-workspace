@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "console",
+      "path": "./"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "trans-batch\\node_modules\\typescript\\lib"
+  }
+}
